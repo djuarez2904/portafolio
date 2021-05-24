@@ -1,0 +1,42 @@
+/*
+
+*/
+
+body{
+    background-color: floralwhite;
+    color: blue;
+
+}
+
+h1{
+    text-align: center;
+    
+    text-decoration: underline blue;
+}
+
+
+
+#item-list{
+    border: 2px solid blue;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+table:hover{
+    background-color: orange;
+}
+
+button{
+    background-color: greenyellow;
+}
+
+textarea{
+    width: 500px;
+    height: 150px;
+}

@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    
+}
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+#feedback{
+    display: block;
+    text-align: center;
+    margin: 40px;
+    padding: 10px 20px 10px 20px;
+    list-style: none;
+
+}
+
+#coding-skills{
+    float: center;
+    
+}
+
+#past-skills{
+    float: center;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+

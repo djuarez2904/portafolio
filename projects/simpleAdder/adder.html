@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Adder</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="adder.js" defer></script>
+
+    <!-- 
+
+        David Juarez
+
+        adder.js
+
+        Description:
+
+        This program will request the user to enter two number.
+        add to number, display the total sum, reset the calculator
+        by pressing the clear botton to clear all the fields and
+        start new calculations.
+
+     -->
+
+</head>
+
+<body>
+    <div id="main">
+        <h2>My Adder</h2>
+        <input type="text" id="num1" size="5">
+        <h1>+</h1>
+        <input type="text" id="num2" size="5">
+        <br>
+        <button onclick="add()">=</button>
+        <button onclick="reset()">clear</button>
+        <h2 id="sum">0</h2>
+    </div>
+
+    <div id="footer">Copyright&nbsp;David Juarez &copy; 2021 </div>
+
+</body>
+
+</html>

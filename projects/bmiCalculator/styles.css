@@ -1,0 +1,47 @@
+/*
+
+    David Juarez
+
+    styles.css
+
+    Description:
+
+    index.html customize
+    This file will customize font, color, background in the body tag.
+    It will add-format a border, width, padding, margin, display: flex,
+    (Please refer to the code below for further information)
+    It implement input and button format to the index.html file
+
+
+*/
+
+
+body{
+    background-color: rgb(195, 146, 241);
+    font: 14pt cursive;
+    color: blue;
+}
+
+#main{
+    border: 2px solid black;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input{
+    font-size: 1.1em;
+    width: 200px;
+}
+
+button{
+    width: 90px;
+}
+
+
+

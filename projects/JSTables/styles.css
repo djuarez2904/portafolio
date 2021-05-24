@@ -1,0 +1,41 @@
+/*
+
+David Juarez
+Java Array Tutorial
+
+Description:
+index.html customize
+    This file will customize font, color, background in the body tag.
+    It will add-format a border, width, padding, margin, display: flex,
+    
+
+*/
+
+
+body{
+    background-color: #ffb662d2;
+    color: blue;
+}
+
+#menu{
+    border: 2px solid blue;
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+table:hover{
+    background-color: magenta;
+}
+
+#footer{
+    text-align: center;
+    font-weight: bold;
+}
